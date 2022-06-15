@@ -50,7 +50,8 @@ z-index: 1;
 	flex-direction: column;
 	border: 10px solid #fff;
 	border-radius: 10%;
-	z-index: 2;
+	z-index: 3;
+
 }
 .heading-area{
 	display: flex;
@@ -91,7 +92,7 @@ border-bottom-left-radius: 15px;
 	margin-left: 10px;
 }
 .pic3 h3{
-font-size: 15px;
+font-size: 13px;
 }
 .pic3 h5{
 	font-size: 8px;
@@ -101,4 +102,17 @@ font-size: 15px;
 	border: none;
 	height: 38px;
 	margin-left: 45px;
+}
+.backcolor{
+	z-index: -2;
+	background-color: #f0f0f0;
+}
+.text-bubble{
+	background-color: hsl(264, 70%, 91%);
+	margin: 5px;
+	font-size: 10px;
+	color:hsl(276, 55%, 52%) ;
+	width: fit-content;
+	padding: 5px;
+	border-radius: 8px;
 }
