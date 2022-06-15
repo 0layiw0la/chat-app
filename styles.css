@@ -109,10 +109,38 @@ font-size: 13px;
 }
 .text-bubble{
 	background-color: hsl(264, 70%, 91%);
-	margin: 5px;
+	margin: 10px;
 	font-size: 10px;
 	color:hsl(276, 55%, 52%) ;
 	width: fit-content;
 	padding: 5px;
 	border-radius: 8px;
+}
+.text-bubble1{
+	background-color: #fff;
+	margin: 10px 0px 10px 130px;
+	font-size: 10px;
+	color:hsl(276, 55%, 52%) ;
+	width: fit-content;
+	padding: 5px;
+	border-radius: 8px;
+}
+.text-bubble2{
+	background-color: #fff;
+	margin: 0px 0px 10px 160px;
+	font-size: 10px;
+	color:hsl(276, 55%, 52%) ;
+	width: fit-content;
+	padding: 5px;
+	border-radius: 6px;
+}
+.dog-pic-flex{
+	display: flex;
+	justify-content: flex-end;
+}
+.dog-pic-flex img{
+	height: 50px;
+	width: 50px;
+	border-radius: 10px;
+	margin: 10px 10px 0px 0px;
 }
