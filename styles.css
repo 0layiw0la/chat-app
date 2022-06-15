@@ -17,8 +17,10 @@ body {
 	border-left: none;
 }
 .phone{
-	border: 1px solid red;
-	width: 20%;
+	z-index: -3;
+	align-self: center;
+	width: 18%;
+	margin-left: -50px;
 }
 .side-paragraph{
 	border: 1px solid red;
@@ -26,8 +28,9 @@ body {
 	width: 30%;
 }
 .shape{
+	z-index: -4;
 	border: 1px solid red;
-	width: 30%;
+	width: 25%;
 	border-left: none;
 }
 #shape{
@@ -37,19 +40,19 @@ body {
     background:hsl(276, 55%, 52%);
 }
 #shape2{
-z-index: 1;
-	margin-top: -150px;
-	margin-left: -40px;
+    z-index: 1;
+	margin-top: -200px;
+	margin-left: -80px;
 	height: 50%;
-	border-bottom-left-radius: 50%;
-    border-bottom-right-radius:50%;
+	border-bottom-left-radius: 30%;
+    border-bottom-right-radius:70%;
     background:hsl(276, 55%, 52%);
 }
 .border{
 	display: flex;
 	flex-direction: column;
 	border: 10px solid #fff;
-	border-radius: 10%;
+	border-radius: 25px;
 	z-index: 3;
 
 }
@@ -109,38 +112,66 @@ font-size: 13px;
 }
 .text-bubble{
 	background-color: hsl(264, 70%, 91%);
-	margin: 10px;
-	font-size: 10px;
+	margin: 5px 5px 5px 8px ;
+	font-size: 8px;
 	color:hsl(276, 55%, 52%) ;
 	width: fit-content;
 	padding: 5px;
-	border-radius: 8px;
+	border-radius: 10px 10px 10px 0px;
 }
 .text-bubble1{
 	background-color: #fff;
-	margin: 10px 0px 10px 130px;
-	font-size: 10px;
+	margin: 0px 0px 10px 100px;
+	font-size: 8px;
 	color:hsl(276, 55%, 52%) ;
 	width: fit-content;
 	padding: 5px;
-	border-radius: 8px;
+	border-radius: 10px 10px 0px 10px;
 }
 .text-bubble2{
 	background-color: #fff;
-	margin: 0px 0px 10px 160px;
-	font-size: 10px;
+	margin: 0px 0px 10px 130px;
+	font-size: 8px;
 	color:hsl(276, 55%, 52%) ;
 	width: fit-content;
 	padding: 5px;
-	border-radius: 6px;
+	border-radius: 6px 6px 0px 6px;
 }
 .dog-pic-flex{
 	display: flex;
 	justify-content: flex-end;
 }
 .dog-pic-flex img{
-	height: 50px;
-	width: 50px;
+	height: 45px;
+	width: 45px;
 	border-radius: 10px;
 	margin: 10px 10px 0px 0px;
+}
+.price-bubble{
+	background: linear-gradient(hsl(293, 100%, 63%),hsl(264, 100%, 61%)); 
+	margin: 5px 5px 5px 8px;
+	font-size: 8px;
+	color:#fff ;
+	width: fit-content;
+	padding: 5px;
+	border-radius: 10px 10px 10px 0px;
+	display: flex;
+}
+.price-bubble div{
+	align-self: center;
+	height: 13px;
+	width: 13px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+.price-bubble p{
+	align-self: center;
+	margin-left: 10px;
+}
+.price-bubble b{
+	float: right;
+	margin-left: 20px;
+	font-size: 13px;
+	font-weight: 800;
+	align-self: center;
 }
